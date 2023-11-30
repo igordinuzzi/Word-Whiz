@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
+
+:root {
+    --primary-color: #0054AD;
+    --secondary-color: #00678A;
+    --background-color: #F8F9FA;
+    --text-color: #343A40;
+    --correct-answer-color: #28A745;
+    --incorrect-answer-color: #DC3545;
+    --neutral-accent: #6C757D;
+    --tertiary-color: #ededed;
+}
+
+/* CSS for Centering the screens */
+html, body {
+    height: 100%; /* Full viewport height */
+    margin: 0; /* Reset default margins */
+    display: flex; /* Enable flex layout */
+    flex-direction: column; /* Stack children vertically */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+main {
+    flex: 1 0 auto; /* Flex grow, shrink, and basis */
+    padding: 20px; /* Padding inside main */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    min-height: calc(100vh - 60px); /* Full viewport height minus footer height */
+}
+
+footer {
+    flex-shrink: 0; /* Prevent the footer from shrinking */
+    width: 100%; /* Full width */
+    position: sticky; /* Stick to the bottom */
+    bottom: 0; /* Align to the bottom */
+}
+
+
+#welcome-screen {
+    display: block; /* Make welcome screen visible by default */
+}
+
+.screen {
+    display: none; /* Hide screens initially */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Maximum width */
+    margin: auto; /* Auto margins for horizontal centering */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    .screen {
+        padding: 10px;
+    }
+}
+
+/* Base style for the image */
+#welcome-screen .quiz-image {
+    max-width: 80%; /* Adjust according to container size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Align the image properly */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Example media query for smaller screens */
+@media (max-width: 600px) {
+    #welcome-screen .quiz-image {
+        max-width: 40%; /* Make the image larger on smaller screens */
+    }
+}
+
+/* Example media query for larger screens */
+@media (min-width: 1200px) {
+    #welcome-screen .quiz-image {
+        max-width: 30%; /* Smaller relative size on larger screens */
+    }
+}
+
+h1 {
+    font-size: 2em; /* Larger font size for main headings */
+    font-weight: bold; /* Bold font weight for headings */
+    margin-bottom: 0.5em; /* Spacing below headings */
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.5em; /* Larger font size for main headings */
+    font-weight: bold; /* Bold font weight for headings */
+    margin-bottom: 0.5em; /* Spacing below headings */
+}
+
+h3 {
+    font-size: 1.3em; /* Slightly smaller than h2 */
+    font-weight: bold; /* Keeping it consistent with other headings */
+    margin-bottom: 0.5em; /* Spacing below the heading */
+}
+
+h4 {
+    font-size: 1.2em; /* Default font size for h4 */
+    font-weight: bold; /* Bold font weight for headings */
+    margin-bottom: 0.4em; /* Spacing below the heading */
+    color: var(--primary-color); /* Use the primary color for consistency */
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    h4 {
+        font-size: 1em; /* Slightly smaller font size for small screens */
+    }
+}
+
+
+
+p {
+    font-size: 1em; /* Standard font size for paragraphs */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 1em; /* Spacing below paragraphs */
+    font-weight: lighter;
+}
+
+.btn-primary {
+    font-size: 1.2em; /* Increased font size for larger text */
+    padding: 0.5em 0.8em; /* Increased padding for a bigger button */
+    background-color: var(--primary-color);
+    color: white;
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+    font-size: 1.2em; /* Increased font size for larger text */
+    padding: 0.5em 0.8em; /* Increased padding for a bigger button */
+    background-color: var(--text-color);
+    color: white;
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn-secondary:hover {
+    background-color: var(--neutral-accent);
+}
+
+
+.btn-option {
+    font-size: 2em; /* Increased font size for larger text */
+    padding: 0.8em 1.2em; /* Increased padding for a bigger button */
+    background-color: var(--neutral-accent);
+    color: white;
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn-option:hover {
+    background-color: var(--primary-color); /* Existing styles */
+    color: var(--background-color); /* Existing styles */
+    font-size: 2.2em; /* Slightly larger font size */
+    padding: 1em 1.4em; /* Slightly more padding */
+}
+
+
+.btn-option:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    /* Add any other properties that need to be reset */
+}
+
+@media screen and (max-width: 600px) {
+    .btn-option {
+        margin: 10px 5px; /* Vertical and horizontal margin */
+        display: block; /* Make each button take the full width */
+        width: 90%; /* Set a specific width, adjust as needed */
+        margin-left: auto; /* Center the button */
+        margin-right: auto; /* Center the button */
+    }
+}
+
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Slightly smaller headings for small screens */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Adjusted size for small screens */
+    }
+
+    h3 {
+        font-size: 1.1em; /* Slightly smaller size for small screens */
+    }
+
+    p, button {
+        font-size: 0.9em; /* Slightly smaller text for small screens */
+    }
+}
+
+
+/* Custom class for adding more space between containers */
+.container-spacing {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#result {
+    font-weight: bold;
+    background-color: var(--tertiary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#final-screen p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.sequential-fade-in span {
+    opacity: 0;
+    animation: fadeInSequential 1s forwards; /* Reduced duration to 1 second */
+    display: inline-block;
+    animation-delay: 0.5s; /* Reduced delay to 0.5 seconds */
+}
+
+@keyframes fadeInSequential {
+    0%, 40% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
