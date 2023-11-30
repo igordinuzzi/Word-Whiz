@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Word Whiz: Solve the Puzzles and Score!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon"> 
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <meta name="description" content="Dive into the world of words with 'Word Whiz,' a thrilling and educational game that tests your English spelling skills. Whether you're a language lover or looking to brush up on your spelling, 'Word Whiz' is an engaging way to challenge your brain and enjoy yourself simultaneously.">
+    <meta name="keywords" content="Word Whiz, English, Spelling, Educational Game, Language Learning, Brain Challenge">
+    <meta name="author" content="Igor Dinuzzi">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="Word Whiz - Master English Spelling!">
+    <meta name="og:description" content="Dive into the world of words with 'Word Whiz,' a thrilling and educational game that tests your English spelling skills. Enjoy the challenge and improve your language skills!">
+    <meta name="og:url" content="https://igordinuzzi.github.io/wordwhiz/">
+    <meta name="og:type" content="website">
+    <meta name="og:site_name" content="Word Whiz">
+</head>
+<body>
+    <main>
+    <div id="welcome-screen" class="container-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <picture>
+                        <img src="assets/img/quiz.svg" alt="Quiz Image" class="quiz-image">
+                    </picture>
+                    <h1 class="sequential-fade-in">Welcome to <span >Word Whiz!</span></h1>
+                    <p>Dive into the world of words with Word Whiz,
+                        a thrilling and educational game that tests your English spelling 
+                        skills.<br> Whether you're a language lover or looking to brush up on 
+                        your spelling, "Word Whiz" is an engaging way<br> to challenge your 
+                        brain and enjoy yourself simultaneously.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container container-spacing">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Select a difficulty level:</h2>
+                    <button id="easy" class="btn btn-primary" aria-label="Select easy difficulty">Easy</button>
+                    <button id="medium" class="btn btn-primary" aria-label="Select medium difficulty">Medium</button>
+                    <button id="difficult" class="btn btn-primary" aria-label="Select difficult difficulty">Difficult</button>
+                </div>
+            </div>
+        </div>
+        <div class="container container-spacing">
+                <div class="row">
+                    <!-- Choose Your Difficulty -->
+                    <div class="col-md-4">
+                        <h3><i class="fa-solid fa-arrow-turn-up"></i> Choose Your Difficulty</h3>
+                        <p>Pick a level that suits you, from easy for beginners to challenging for word aficionados.</p>
+                    </div>
+        
+                    <!-- Race Against Time -->
+                    <div class="col-md-4">
+                        <h3><i class="fa-regular fa-clock"></i> Race Against Time</h3>
+                        <p>You have 10 seconds to choose the correct spelling. Fast-paced and fun, it's a test of speed and accuracy!</p>
+                    </div>
+        
+                    <!-- Learn as You Play -->
+                    <div class="col-md-4">
+                        <h3><i class="fa-solid fa-gamepad"></i> Learn as You Play</h3>
+                        <p>Earn points for correct answers and learn from any mistakes with instant feedback on the right spelling.</p>
+                    </div>
+                </div>
+            </div>    
+            
+    </div>
+    <div id="game-screen" class="screen">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 id="question">Choose the correct word:</h2>
+                    <div id="options">
+                        <button id="option1" class="btn btn-option" aria-label="Choose option 1">Option 1</button>
+                        <button id="option2" class="btn btn-option" aria-label="Choose option 2">Option 2</button>
+                    </div>
+                    <p id="result"></p>
+                    <p id="questions-left"> Questions left: 10</p>
+                    <p id="timer">Timer: 10 seconds</p>
+                    <p id="score">Score:</p> <!-- Score display added -->
+                    <a href="#" id="exit-game" class="btn btn-secondary"><i class="fa-regular fa-circle-xmark"></i> Exit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="final-screen" class="screen">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Game Over</h1>
+                    <p><i class="fa-regular fa-star"></i> Your Final Score: <span id="final-score"></span></p>
+                    <button id="play-again" class="btn btn-secondary" aria-label="Play the game again"><i class="fa-solid fa-play"></i> Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+            <div>
+                <a class="text-dark" href="https://github.com/igordinuzzi" target="_blank" aria-label="Visit Igor's GitHub profile"><i class="fa-brands fa-github"></i> Made by Igor</a>
+            </div>
+    </footer>
+    <!-- Script -->
+    <script src="js/game.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
