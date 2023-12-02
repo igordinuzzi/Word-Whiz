@@ -191,6 +191,16 @@ p {
     }
 }
 
+/* Disable hover effects for screens smaller than 1024px */
+@media (hover: hover) and (pointer: fine) {
+    .btn-option:hover {
+        background-color: var(--neutral-accent);
+        color: white;
+        font-size: 2em;
+        padding: 0.8em 1.2em;
+    }
+}
+
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
