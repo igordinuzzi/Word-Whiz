@@ -168,9 +168,6 @@ p {
 
 .btn-option:hover {
     background-color: var(--primary-color); /* Existing styles */
-    color: var(--background-color); /* Existing styles */
-    font-size: 2.2em; /* Slightly larger font size */
-    padding: 1em 1.4em; /* Slightly more padding */
 }
 
 
@@ -190,17 +187,6 @@ p {
         margin-right: auto; /* Center the button */
     }
 }
-
-/* Disable hover effects for touch-screen devices */
-@media (hover: none) and (pointer: coarse) {
-    .btn-option:hover {
-        background-color: initial; /* Reset to default background color */
-        color: initial; /* Reset to default text color */
-        font-size: initial; /* Reset to default font size */
-        padding: initial; /* Reset to default padding */
-    }
-}
-
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
