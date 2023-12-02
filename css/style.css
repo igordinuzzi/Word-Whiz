@@ -128,7 +128,7 @@ p {
     font-size: 1.2em; /* Increased font size for larger text */
     padding: 0.5em 0.8em; /* Increased padding for a bigger button */
     background-color: var(--primary-color);
-    color: white;
+    color: var(--background-color);
     border: none; /* No border for buttons */
     border-radius: 5px; /* Rounded corners for buttons */
     cursor: pointer; /* Cursor changes to pointer on hover */
@@ -159,7 +159,7 @@ p {
     font-size: 2em; /* Increased font size for larger text */
     padding: 0.8em 1.2em; /* Increased padding for a bigger button */
     background-color: var(--neutral-accent);
-    color: white;
+    color: var(--background-color);
     border: none; /* No border for buttons */
     border-radius: 5px; /* Rounded corners for buttons */
     cursor: pointer; /* Cursor changes to pointer on hover */
