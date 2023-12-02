@@ -167,7 +167,8 @@ p {
 }
 
 .btn-option:hover {
-    background-color: var(--primary-color); /* Existing styles */
+    background-color: var(--primary-color); 
+    color: var(--background-color);
 }
 
 
@@ -185,6 +186,14 @@ p {
         width: 90%; /* Set a specific width, adjust as needed */
         margin-left: auto; /* Center the button */
         margin-right: auto; /* Center the button */
+    }
+}
+
+/* Disable hover effects for touch-screen devices */
+@media (hover: none) and (pointer: coarse) {
+    .btn-option:hover {
+        background-color: var(--neutral-accent);
+        color: white;
     }
 }
 
