@@ -1,16 +1,26 @@
 # README for Word Whiz
 
 ## Introduction
+![Mockup](doc/mockup/mockup.jpg)
 **Word Whiz** is an engaging and educational web-based game designed to test and improve English spelling skills. Players can choose different difficulty levels - easy, medium, and difficult - and race against the clock to select the correct spelling of words. This game is a perfect blend of learning and fun, suitable for language enthusiasts and those looking to enhance their spelling proficiency.
 
 ## Features
 - **Homepage
+![homepage](doc/features/homepage.jpg)
 - **Multiple Difficulty Levels**: Choose from easy, medium, or difficult levels to match your skill level.
+![level](doc/features/level.jpg)
 - **Timed Challenges**: Each question must be answered within 10 seconds, making the game fast-paced and exciting.
+![time](doc/features/time.jpg)
 - **Scoring System**: Earn points for each correct answer and track your progress.
+![score](doc/features/score.jpg)
 - **Instant Feedback**: Receive immediate feedback on your answers, allowing effective learning.
+![feedback1](doc/features/feedback1.jpg)
+![feedback2](doc/features/feedback2.jpg)
+![feedback3](doc/features/feedback3.jpg)
 - **Responsive Design**: The game is designed to be responsive and can be played on various devices.
+![mobile](doc/features/mobile.jpg)
 - **Favicon
+![favicon](doc/features/favicon.png)
 
 ## Technology
 - HTML/CSS for structure and styling
@@ -106,6 +116,14 @@ If you wish to set up automated testing, you can use tools like Jest for JavaScr
 ### Reporting Issues
 If you encounter any bugs or issues during testing, please report them on the [issues page](https://github.com/[igordinuzzi]/Word-Whiz/issues) with a detailed description of the problem and the steps to reproduce it.
 
+##Functionalities
+
+### Questions
+![questions](doc/functionalities/questions.jpg)
+
+### Check answers
+![answers](doc/functionalities/checkanswer.jpg)
+
 ## Usability Testing Report
 
 ### Overview
@@ -168,6 +186,16 @@ Usability testing was conducted with five fictitious participants to evaluate th
 ## Contributing
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/igordinuzzi/Word-Whiz/issues) if you want to contribute.
 
+## Validations
+
+### W3C Markup Validation Service
+![validation1](doc/check/check1.jpg)
+
+### Lighthouse report
+![validation2](doc/check/check2.jpg)
+
+### JS validator
+![validation3](doc/check/check3.jpg)
 
 ## Contact
 Igor Dinuzzi - [https://github.com/igordinuzzi](https://github.com/igordinuzzi)
