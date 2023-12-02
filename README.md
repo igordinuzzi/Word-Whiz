@@ -1,4 +1,4 @@
-# README for Word Whiz
+# Word Whiz
 
 ## Introduction
 ![Mockup](doc/mockup/mockup.jpg)
@@ -127,6 +127,7 @@ If you encounter any bugs or issues during testing, please report them on the [i
 ## Wireframes
 ![wireframe1](doc/wireframes/wireframe1.jpg)
 ![wireframe2](doc/wireframes/wireframe2.jpg)
+![palette](doc/wireframes/palette.jpg)
 
 ## Usability Testing Report
 
