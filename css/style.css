@@ -191,13 +191,13 @@ p {
     }
 }
 
-/* Disable hover effects for screens smaller than 1024px */
-@media (hover: hover) and (pointer: fine) {
+/* Disable hover effects for touch-screen devices */
+@media (hover: none) and (pointer: coarse) {
     .btn-option:hover {
-        background-color: var(--neutral-accent);
-        color: white;
-        font-size: 2em;
-        padding: 0.8em 1.2em;
+        background-color: initial; /* Reset to default background color */
+        color: initial; /* Reset to default text color */
+        font-size: initial; /* Reset to default font size */
+        padding: initial; /* Reset to default padding */
     }
 }
 
