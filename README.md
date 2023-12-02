@@ -116,13 +116,17 @@ If you wish to set up automated testing, you can use tools like Jest for JavaScr
 ### Reporting Issues
 If you encounter any bugs or issues during testing, please report them on the [issues page](https://github.com/[igordinuzzi]/Word-Whiz/issues) with a detailed description of the problem and the steps to reproduce it.
 
-##Functionalities
+## Functionalities
 
 ### Questions
 ![questions](doc/functionalities/questions.jpg)
 
 ### Check answers
 ![answers](doc/functionalities/checkanswer.jpg)
+
+## Wireframes
+![wireframe1](doc/wireframes/wireframe1.jpg)
+![wireframe2](doc/wireframes/wireframe2.jpg)
 
 ## Usability Testing Report
 
