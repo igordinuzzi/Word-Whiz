@@ -4,11 +4,13 @@
 **Word Whiz** is an engaging and educational web-based game designed to test and improve English spelling skills. Players can choose different difficulty levels - easy, medium, and difficult - and race against the clock to select the correct spelling of words. This game is a perfect blend of learning and fun, suitable for language enthusiasts and those looking to enhance their spelling proficiency.
 
 ## Features
+- **Homepage
 - **Multiple Difficulty Levels**: Choose from easy, medium, or difficult levels to match your skill level.
 - **Timed Challenges**: Each question must be answered within 10 seconds, making the game fast-paced and exciting.
 - **Scoring System**: Earn points for each correct answer and track your progress.
 - **Instant Feedback**: Receive immediate feedback on your answers, allowing effective learning.
 - **Responsive Design**: The game is designed to be responsive and can be played on various devices.
+- **Favicon
 
 ## Technology
 - HTML/CSS for structure and styling
