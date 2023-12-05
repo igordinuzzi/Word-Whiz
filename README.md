@@ -188,9 +188,6 @@ Usability testing was conducted with five fictitious participants to evaluate th
 - Explore adding advanced levels and competitive elements like leaderboards.
 - Enhance user engagement with animations and keyboard shortcuts for quick navigation.
 
-## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/igordinuzzi/Word-Whiz/issues) if you want to contribute.
-
 ## Validations
 
 ### W3C Markup Validation Service
@@ -206,4 +203,7 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 Igor Dinuzzi - [https://github.com/igordinuzzi](https://github.com/igordinuzzi)
 
 Project Link: [https://github.com/igordinuzzi/word-whiz](https://github.com/igordinuzzi/Word-Whiz)
+
+## Contributing
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/igordinuzzi/Word-Whiz/issues) if you want to contribute.
 
