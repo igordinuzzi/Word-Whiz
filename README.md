@@ -85,6 +85,62 @@ As a user interested in improving my English spelling skills, I want to play a g
 - The interface should be intuitive, allowing for easy navigation and a focus on the gameplay.
 - The game should offer a sense of progression and achievement as the user improves their spelling skills.
 
+### User Flow
+
+1. **Landing on the Homepage**
+   - User arrives on the main page.
+   - Sees the welcoming message and an image related to the quiz game.
+
+2. **Reading Introduction**
+   - Reads a brief introduction about the game, its purpose, and its educational value.
+
+3. **Selecting Difficulty Level**
+   - Encounters options to choose the difficulty level: Easy, Medium, or Difficult.
+   - Selects a difficulty level to start the game.
+
+4. **Game Interaction**
+   - Presented with a series of spelling questions.
+   - Chooses the correct spelling from two options.
+   - Receives immediate feedback on their choice.
+   - Views the score and remaining questions.
+
+5. **Completing the Game**
+   - After answering all questions, views the final score.
+   - Presented with the option to play again or exit.
+
+6. **Restarting or Exiting Game**
+   - Chooses to either play again or exit the game.
+   - If choosing to play again, selects a new difficulty level and starts over.
+
+7. **Exploring Additional Information**
+   - User may scroll down to view additional site information or external links (e.g., GitHub profile).
+
+### Task Flow for Playing a Game
+
+1. **Starting the Game**
+   - User selects a difficulty level (Easy, Medium, or Difficult) on the main page.
+   - The game screen loads with the first question.
+
+2. **Answering Questions**
+   - User reads the question and selects one of the two spelling options.
+   - The game provides immediate feedback on the selection.
+   - The score updates based on the response.
+   - The game progresses to the next question until all questions are answered.
+
+3. **Ending the Game**
+   - Once all questions are answered, the game shows the final score.
+   - User is given the option to play again or exit.
+
+4. **Restarting or Exiting**
+   - If 'Play Again' is selected, user returns to the difficulty selection screen.
+   - If 'Exit' is selected, the game ends, and the user returns to the main screen.
+
+### Additional Notes
+
+- User interaction is centered around choosing correct spellings and receiving instant feedback.
+- The game’s design encourages repeat play and offers a clear, straightforward path from game start to finish.
+- The game flow is designed to be engaging and informative, encouraging learning through interaction.
+
 
 ## Testing
 
