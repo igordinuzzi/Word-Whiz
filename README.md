@@ -3,6 +3,7 @@
 ## Introduction
 ![Mockup](doc/mockup/mockup.jpg)
 **Word Whiz** is an engaging and educational web-based game designed to test and improve English spelling skills. Players can choose different difficulty levels - easy, medium, and difficult - and race against the clock to select the correct spelling of words. This game is a perfect blend of learning and fun, suitable for language enthusiasts and those looking to enhance their spelling proficiency.
+Live webpage [here](https://igordinuzzi.github.io/Word-Whiz/)
 
 ## Features
 - **Homepage
