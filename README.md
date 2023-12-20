@@ -227,6 +227,20 @@ If you encounter any bugs or issues during testing, please report them on the [i
 ![answers](doc/functionalities/checkanswer.jpg)
 
 ## Wireframes
+
+```css
+:root {
+    --primary-color: #0054AD;
+    --secondary-color: #00678A;
+    --background-color: #F8F9FA;
+    --text-color: #343A40;
+    --correct-answer-color: #28A745;
+    --incorrect-answer-color: #DC3545;
+    --neutral-accent: #6C757D;
+    --tertiary-color: #ededed;
+}
+```
+
 ![wireframe1](doc/wireframes/wireframe1.jpg)
 ![wireframe2](doc/wireframes/wireframe2.jpg)
 ![palette](doc/wireframes/palette.jpg)
