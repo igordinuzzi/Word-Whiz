@@ -1,5 +1,38 @@
 # Word Whiz
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technology](#technology)
+4. [How to Play](#how-to-play)
+5. [Installation](#installation)
+6. [Learning Outcomes](#learning-outcomes)
+7. [User Story](#user-story)
+   - [Overview](#overview)
+   - [User Story Breakdown](#user-story-breakdown)
+   - [User Satisfaction Goals](#user-satisfaction-goals)
+8. [User Flow](#user-flow)
+9. [Task Flow for Playing a Game](#task-flow-for-playing-a-game)
+10. [Testing](#testing)
+   - [Prerequisites for Testing](#prerequisites-for-testing)
+   - [How to Test](#how-to-test)
+   - [Automated Testing](#automated-testing)
+   - [Reporting Issues](#reporting-issues)
+11. [Functionalities](#functionalities)
+12. [Wireframes](#wireframes)
+13. [Usability Testing Report](#usability-testing-report)
+   - [Overview](#overview-1)
+   - [Participants](#participants)
+   - [Findings and Observations](#findings-and-observations)
+   - [Conclusions](#conclusions)
+   - [Recommendations](#recommendations)
+14. [Validations](#validations)
+15. [Deployment](#deployment)
+16. [Credits](#credits)
+17. [Contact](#contact)
+18. [Contributing](#contributing)
+
+
 ## Introduction
 ![Mockup](doc/mockup/mockup.jpg)
 **Word Whiz** is an engaging and educational web-based game designed to test and improve English spelling skills. Players can choose different difficulty levels - easy, medium, and difficult - and race against the clock to select the correct spelling of words. This game is a perfect blend of learning and fun, suitable for language enthusiasts and those looking to enhance their spelling proficiency.
@@ -42,6 +75,18 @@ Live webpage [here](https://igordinuzzi.github.io/Word-Whiz/)
    ```
 2. Navigate to the cloned directory.
 3. Open `index.html` in a web browser to start playing.
+
+## Learning Outcomes
+
+From a student's perspective, this project was instrumental in understanding and applying:
+
+- Web Development Fundamentals: Gaining hands-on experience with HTML, CSS, and JavaScript.
+- Responsive Design: Learning how to create a responsive interface using Bootstrap that adapts to different screen sizes.
+- Game Logic Implementation: Developing skills in JavaScript to manage game mechanics and user interactions.
+- Version Control: Using Git and GitHub for source code management and deployment.- User-Centered Design: Focusing on user experience and usability throughout the development process.
+- Testing and Debugging: Conducting thorough testing and learning to troubleshoot and resolve issues efficiently.
+- Creative Problem Solving: Overcoming challenges in game development and interface design.
+- Project Management: Planning, developing, and completing a project within a set timeframe.
 
 ## User Story
 
@@ -86,7 +131,7 @@ As a user interested in improving my English spelling skills, I want to play a g
 - The interface should be intuitive, allowing for easy navigation and a focus on the gameplay.
 - The game should offer a sense of progression and achievement as the user improves their spelling skills.
 
-### User Flow
+## User Flow
 
 1. **Landing on the Homepage**
    - User arrives on the main page.
@@ -116,7 +161,7 @@ As a user interested in improving my English spelling skills, I want to play a g
 7. **Exploring Additional Information**
    - User may scroll down to view additional site information or external links (e.g., GitHub profile).
 
-### Task Flow for Playing a Game
+## Task Flow for Playing a Game
 
 1. **Starting the Game**
    - User selects a difficulty level (Easy, Medium, or Difficult) on the main page.
@@ -255,6 +300,24 @@ Usability testing was conducted with five fictitious participants to evaluate th
 
 ### JS validator
 ![validation3](doc/check/check3.jpg)
+
+## Deployment
+Deployment to GitHub Pages:
+
+The game was deployed to GitHub Pages, making it easily accessible to the public. The deployment process involved:
+
+    In the GitHub repository, navigate to the ‘Settings’ tab.
+    From the menu on the left, select 'Pages'.
+    Under the 'Source' section, choose the 'main' branch and save.
+    Once deployed, GitHub displays a green banner with a live link to the webpage.
+
+## Credits
+
+Game Development and Design: Igor Dinuzzi
+Graphic Design and Assets: Created using various design tools and sourced from open libraries
+Content: CHATGPT
+Special Thanks: To everyone who played the game and provided valuable feedback
+    
 
 ## Contact
 Igor Dinuzzi - [https://github.com/igordinuzzi](https://github.com/igordinuzzi)
